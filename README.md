@@ -95,17 +95,6 @@ python ChaosProtoNet.py \
 
 ---
 
-## Citation
-If you use CE-ProtoNet in your research, please cite our algorithm:
-
-```bibtex
-@article{ce_protonet_2026,
-  title={CE-ProtoNet: Chaos-Embedded Prototypical Networks for Medical Image Classification},
-  author={Your Name},
-  journal={TBD},
-  year={2026}
-}
-```
 
 ## License
 **All Rights Reserved.**
