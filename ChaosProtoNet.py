@@ -146,7 +146,7 @@ def validate(model, loader, y_query, n_way, k_shot, query):
 
 # ==================== MAIN CLI ====================
 def main():
-    parser = argparse.ArgumentParser(description="CE-ProtoNet: Chaos-Embedded Prototypical Networks")
+    parser = argparse.ArgumentParser(description="CE-ProtoNet: Chaos-Enhanced Prototypical Networks")
     parser.add_argument("--data_path", type=str, required=True, help="Path to the dataset directory containing 'train' and 'test' folders")
     parser.add_argument("--epochs", type=int, default=50, help="Number of training epochs")
     parser.add_argument("--episodes_train", type=int, default=500, help="Number of episodes per training epoch")
