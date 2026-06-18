@@ -2,8 +2,11 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-DirectML-red.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](#license)
 
+> [!WARNING]
+> **PROPRIETARY CODE - DO NOT DISTRIBUTE**
+> This repository is provided strictly for academic review. The CE-ProtoNet algorithm and source code are proprietary. You may not use, modify, or distribute this code without explicit written permission from the author until the associated research paper is officially published.
 ## Overview
 **CE-ProtoNet** is a novel few-shot learning algorithm designed specifically for medical image classification. It enhances a standard Prototypical Network (using a ResNet-18 backbone) by incorporating a **Logistic Chaos** module. This module injects dynamic, deterministic chaos noise directly into the support set embeddings during the training phase, artificially simulating complex intra-class variance and drastically improving generalization on extremely small datasets.
 
@@ -105,4 +108,6 @@ If you use CE-ProtoNet in your research, please cite our algorithm:
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+**All Rights Reserved.**
+
+This source code and algorithm are proprietary. Permission is NOT granted to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software in any form prior to official publication. See the [LICENSE](LICENSE) file for complete details.
